@@ -1,4 +1,16 @@
-commit 5612ba2a6aa71c94ca74fda57f19ce6a28438dd3 (HEAD, origin/master, origin/HEAD, master)
+commit 452c24089e1b9f1b99ed15f036045aac158c9fe0 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Fri Nov 14 19:10:34 2014 -0430
+
+    * se cambian nombres
+
+commit b572ce9941315be9a06eafb57158fd400d892354 (tag: v1.0)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Fri Nov 14 19:08:53 2014 -0430
+
+    * changelog
+
+commit 5612ba2a6aa71c94ca74fda57f19ce6a28438dd3
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Fri Nov 14 19:08:38 2014 -0430
 
