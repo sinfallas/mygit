@@ -1,4 +1,16 @@
-commit 452c24089e1b9f1b99ed15f036045aac158c9fe0 (HEAD, origin/master, origin/HEAD, master)
+commit 607c249e6736d084b71ec227d1fb749227b692bb (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Fri Nov 14 19:40:02 2014 -0430
+
+    * se agrega travis
+
+commit da04e73e2cc8b560aa994dc77bb3de178d76cc2f
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Fri Nov 14 19:10:48 2014 -0430
+
+    * changelog
+
+commit 452c24089e1b9f1b99ed15f036045aac158c9fe0
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Fri Nov 14 19:10:34 2014 -0430
 
