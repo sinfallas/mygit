@@ -1,5 +1,4 @@
 #!/bin/bash
-#elaborado por sinfallas
 git pull
 git add .
 git commit -a

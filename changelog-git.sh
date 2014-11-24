@@ -1,5 +1,4 @@
 #!/bin/bash
-#elaborado por sinfallas
 git pull
 git log --decorate > changelog
 git add .
