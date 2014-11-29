@@ -1,4 +1,16 @@
-commit 635f7a252931f9c897c81043724508e46f8c8d19 (HEAD, origin/master, origin/HEAD, master)
+commit c136f845a7804ef04ab6e2381d5978f6f740a5c0 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Nov 29 18:07:56 2014 -0430
+
+    * se agrega el script fusionado
+
+commit 37c926d4a6e399648d373777bf296c26d95d19c1
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Mon Nov 24 01:05:33 2014 -0430
+
+    * changelog
+
+commit 635f7a252931f9c897c81043724508e46f8c8d19
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Mon Nov 24 01:05:19 2014 -0430
 
