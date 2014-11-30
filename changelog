@@ -1,4 +1,16 @@
-commit c136f845a7804ef04ab6e2381d5978f6f740a5c0 (HEAD, origin/master, origin/HEAD, master)
+commit eb8776df527eed48a4c0a25e7c6b3bed440951e5 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sun Nov 30 12:18:01 2014 -0430
+
+    * se eliminan los script que ya fueron incorporados a mygit.sh
+
+commit 68684c48b8d7e7c5b59a9370c655c81262b5693b
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sat Nov 29 18:08:26 2014 -0430
+
+    * changelog
+
+commit c136f845a7804ef04ab6e2381d5978f6f740a5c0
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Sat Nov 29 18:07:56 2014 -0430
 
