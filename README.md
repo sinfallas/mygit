@@ -1,4 +1,4 @@
-git-scripts
+mygit
 ===========
 
 ![Status](https://api.travis-ci.org/sinfallas/git-scripts.svg) 
