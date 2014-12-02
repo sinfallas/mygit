@@ -13,6 +13,15 @@ case "$1" in
 		git push --all
 		;;
 
+	change-all)
+		for i in $(find . -maxdepth 1 -type d); do
+			git log --decorate > changelog
+			git add .
+			git commit -a -m "* changelog"
+			git push --all    		
+		done
+		;;
+
 	refresh)
 		for i in $(find . -maxdepth 1 -type d); do
     			git pull
@@ -20,8 +29,9 @@ case "$1" in
 		;;
 
 	*)
-		echo "USO: $0 {up|change|refresh}"
+		echo "USO: $0 {up|change|change-all|refresh}"
 		exit 0
 		;;
+
 esac
 exit 0
