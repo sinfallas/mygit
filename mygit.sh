@@ -1,14 +1,12 @@
 #!/bin/bash
 case "$1" in
 	up)
-		git pull
 		git add .
 		git commit -a
 		git push --all
 		;;	
 
 	change)
-		git pull
 		git log --decorate > changelog
 		git add .
 		git commit -a -m "* changelog"
@@ -16,7 +14,9 @@ case "$1" in
 		;;
 
 	refresh)
-		aqui va el refresh
+		for i in $(find . -maxdepth 1 -type d); do
+    			git pull
+		done
 		;;
 
 	*)
