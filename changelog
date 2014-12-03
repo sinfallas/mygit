@@ -1,4 +1,16 @@
-commit 0c1310a25b735c0e31de10e29277110ea0941b5e (HEAD, origin/master, origin/HEAD, master)
+commit 6e836565cf10e2893b7a4a653855865c2ffe31ba (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 3 15:52:59 2014 -0430
+
+    * se corrigen errores en las funciones refresh y change-all
+
+commit 76695bc79c92f3c824d4ad81771c0a941bae6ce8
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 3 15:51:34 2014 -0430
+
+    * changelog
+
+commit 0c1310a25b735c0e31de10e29277110ea0941b5e
 Author: Jose Perez <sinfallas@users.noreply.github.com>
 Date:   Tue Dec 2 12:05:09 2014 -0430
 
