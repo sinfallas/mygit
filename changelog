@@ -1,4 +1,36 @@
-commit eb8776df527eed48a4c0a25e7c6b3bed440951e5 (HEAD, origin/master, origin/HEAD, master)
+commit 0c1310a25b735c0e31de10e29277110ea0941b5e (HEAD, origin/master, origin/HEAD, master)
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Dec 2 12:05:09 2014 -0430
+
+    Update README.md
+
+commit 6704743434a1cacd2f9daa4435fdf3c48b2a0b30
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Dec 2 12:04:52 2014 -0430
+
+    Update COPYING
+
+commit a1da06f842bc2e5933acc279d8368fb92b255f57
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Dec 2 11:48:39 2014 -0430
+
+    * se crea la funcion change-all
+    
+    actualiza el changelog de todos los proyectos en un directorio
+
+commit b843c685e71c03e52307e55495185196905b266e
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Tue Dec 2 11:40:33 2014 -0430
+
+    * se agrega el contenido de la funcion refresh
+
+commit 88e3a109f553ebede670594893f62aea4906cbfb
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sun Nov 30 12:18:27 2014 -0430
+
+    * changelog
+
+commit eb8776df527eed48a4c0a25e7c6b3bed440951e5
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Sun Nov 30 12:18:01 2014 -0430
 
