@@ -14,17 +14,21 @@ case "$1" in
 		;;
 
 	change-all)
-		for i in $(find . -maxdepth 1 -type d); do
+		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
+			cd $i
 			git log --decorate > changelog
 			git add .
 			git commit -a -m "* changelog"
-			git push --all    		
+			git push --all
+			cd ..
 		done
 		;;
 
 	refresh)
-		for i in $(find . -maxdepth 1 -type d); do
-    			git pull
+		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
+    			cd $i
+			git pull
+			cd ..
 		done
 		;;
 
