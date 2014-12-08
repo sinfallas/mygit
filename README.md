@@ -1,5 +1,5 @@
 mygit
 ===========
 
-![Status](https://api.travis-ci.org/sinfallas/git-scripts.svg) 
+![Status](https://api.travis-ci.org/sinfallas/mygit.svg) 
 scripts for git
