@@ -1,4 +1,16 @@
-commit 48fe5f9a7a38839854aa6952b5f08edc32218fd4 (HEAD, origin/master, origin/HEAD, master)
+commit cae815b8ae50b4ec3c1cbbc32e6df0fbcfad0224 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Dec 17 12:49:28 2014 -0430
+
+    * se actualiza el readme
+
+commit 375483383e3d651935c7701755dfab8fee33a804
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Sun Dec 14 22:50:00 2014 -0430
+
+    * changelog
+
+commit 48fe5f9a7a38839854aa6952b5f08edc32218fd4
 Author: Jose Perez <sinfallas@users.noreply.github.com>
 Date:   Mon Dec 8 11:19:32 2014 -0430
 
