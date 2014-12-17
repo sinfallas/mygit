@@ -9,7 +9,7 @@ mygit
 $ curl -O https://raw.githubusercontent.com/sinfallas/mygit/master/mygit.sh
 $ chmod +x mygit.sh
 ```
-Then execute as root or sudo:
+Then execute:
 
 ```bash
  ./mygit.sh up|change|change-all|refresh
