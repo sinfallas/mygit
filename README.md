@@ -9,8 +9,9 @@ mygit
 $ curl -O https://raw.githubusercontent.com/sinfallas/mygit/master/mygit.sh
 $ chmod +x mygit.sh
 ```
-Then execute:
+
+copy to /usr/bin/ and then execute:
 
 ```bash
- ./mygit.sh up|change|change-all|refresh
+mygit.sh up|change|change-all|refresh
 ```
