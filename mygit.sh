@@ -16,6 +16,7 @@ case "$1" in
 	change-all)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
 			cd $i
+			echo $(pwd)
 			git log --decorate > changelog
 			git add .
 			git commit -a -m "* changelog"
@@ -27,6 +28,7 @@ case "$1" in
 	refresh)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
     			cd $i
+			echo $(pwd)
 			git pull
 			cd ..
 		done
