@@ -1,4 +1,16 @@
-commit 4f56af4fdd0971f4290359876cbc7c9f22941dd4 (HEAD, origin/master, origin/HEAD, master)
+commit 1e0c44965c8e4d1e12e350ab736c39f33493e06a (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:38:10 2015 -0430
+
+    * se actualiza authors
+
+commit 39a4bdd821adbf003996a1a396cfbef2f05bbf51
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Thu Jan 8 00:30:23 2015 -0430
+
+    * changelog
+
+commit 4f56af4fdd0971f4290359876cbc7c9f22941dd4
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Thu Jan 8 00:29:53 2015 -0430
 
