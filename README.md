@@ -16,5 +16,5 @@ $ chmod +x mygit.sh
 copy to /usr/bin/ and then execute:
 
 ```bash
-mygit.sh up|change|change-all|refresh
+mygit.sh {up|change|change-all|refresh|up-all <message>}
 ```
