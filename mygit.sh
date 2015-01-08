@@ -4,7 +4,18 @@ case "$1" in
 		git add .
 		git commit -a
 		git push --all
-		;;	
+		;;
+
+	up-all)
+		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
+			cd $i
+			echo $(pwd)
+			git add .
+			git commit -a -m $2
+			git push --all
+			cd ..
+		done
+		;;
 
 	change)
 		git log --decorate > changelog
@@ -35,7 +46,7 @@ case "$1" in
 		;;
 
 	*)
-		echo "USO: $0 {up|change|change-all|refresh}"
+		echo "USO: $0 {up|change|change-all|refresh|up-all <message>}"
 		;;
 esac
 exit 0
