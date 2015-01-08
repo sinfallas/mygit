@@ -3,6 +3,9 @@ mygit
 
 ![Status](https://api.travis-ci.org/sinfallas/mygit.svg) 
 
+
+A script to automate common tasks when using git
+
 ## How to use
 
 ```bash
