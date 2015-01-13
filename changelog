@@ -1,4 +1,16 @@
-commit 95dff4447384604fce63a94764d69089e47a7cd5 (HEAD, origin/master, origin/HEAD, master)
+commit 49f79cf2d8db2b48b58d1e214f39c20d24eebb49 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Jan 13 19:26:30 2015 -0430
+
+    * correccion de traduccion
+
+commit ce55a33fc40b4ac034476edb2757ab6da83c9499
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Jan 13 19:23:12 2015 -0430
+
+    * changelog
+
+commit 95dff4447384604fce63a94764d69089e47a7cd5
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Tue Jan 13 19:22:55 2015 -0430
 
