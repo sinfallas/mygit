@@ -1,4 +1,16 @@
-commit 49f79cf2d8db2b48b58d1e214f39c20d24eebb49 (HEAD, origin/master, origin/HEAD, master)
+commit e38af9f4b8da3074e7dcdf6b19c67dd8b9f929c9 (HEAD, origin/master, origin/HEAD, master)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Jan 21 17:57:49 2015 -0430
+
+    * se agregan los archivos para ignorar
+
+commit 65bf776622ec14c45418a3b554b3857827ecfcf1 (tag: v1.2.1)
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Tue Jan 13 19:26:46 2015 -0430
+
+    * changelog
+
+commit 49f79cf2d8db2b48b58d1e214f39c20d24eebb49
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Tue Jan 13 19:26:30 2015 -0430
 
