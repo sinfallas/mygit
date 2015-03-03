@@ -4,7 +4,7 @@ case "$1" in
 		git add .
 		git commit -a
 		git push --all
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	up-all)
@@ -16,7 +16,7 @@ case "$1" in
 			git push --all
 			cd ..
 		done
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	change)
@@ -24,7 +24,7 @@ case "$1" in
 		git add .
 		git commit -a -m "* changelog"
 		git push --all
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	change-all)
@@ -37,7 +37,7 @@ case "$1" in
 			git push --all
 			cd ..
 		done
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	refresh)
@@ -47,7 +47,7 @@ case "$1" in
 			git pull
 			cd ..
 		done
-		echo "Finished..."
+		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
 
 	*)
