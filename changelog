@@ -1,4 +1,22 @@
-commit 9458a17c22b977a45698e7cfa79cf52b1ba453b9 (HEAD, origin/master, origin/HEAD, master)
+commit 110898cc375e85afad7f401e03caae47a555e1ee (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 6 16:53:06 2015 -0430
+
+    * se completa la traduccion
+
+commit 6cc5b6d3302ff2345937768254e4794035c1ad49
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Mar 2 22:51:11 2015 -0430
+
+    * se agrega color al mensaje final
+
+commit 2a565bb2d229899a30b649c7698bd0fff39d44f0
+Author: sinfallas <sinfallas@gmail.com>
+Date:   Wed Jan 21 18:11:37 2015 -0430
+
+    * changelog
+
+commit 9458a17c22b977a45698e7cfa79cf52b1ba453b9
 Author: sinfallas <sinfallas@gmail.com>
 Date:   Wed Jan 21 18:11:24 2015 -0430
 
