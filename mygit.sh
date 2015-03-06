@@ -51,7 +51,7 @@ case "$1" in
 		;;
 
 	*)
-		echo "USO: $0 {up|change|change-all|refresh|up-all <message>}"
+		echo "usage: $0 {up|change|change-all|refresh|up-all <message>}"
 		;;
 esac
 exit 0
