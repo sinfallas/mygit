@@ -1,4 +1,22 @@
-commit 110898cc375e85afad7f401e03caae47a555e1ee (HEAD, origin/master, origin/HEAD, master)
+commit acb5243c025def798ac3b63d886e6cc01fa77b63 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Mar 7 23:14:06 2015 -0430
+
+    * se termina de agregar el color
+
+commit eca50bef3082756bf119f09fa9aad53bc230e151
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Mar 7 23:10:59 2015 -0430
+
+    * se agrega verde al refresh
+
+commit 081c2feec53739d6456e042c991280186150f41f (tag: v1.2.2)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Fri Mar 6 16:53:23 2015 -0430
+
+    * changelog
+
+commit 110898cc375e85afad7f401e03caae47a555e1ee
 Author: jose perez <sinfallas@gmail.com>
 Date:   Fri Mar 6 16:53:06 2015 -0430
 
