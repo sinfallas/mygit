@@ -43,7 +43,7 @@ case "$1" in
 	refresh)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
     			cd $i
-			echo $(pwd)
+			echo -e "\e[00;1;92m$(pwd)\e[00m"
 			git pull
 			cd ..
 		done
