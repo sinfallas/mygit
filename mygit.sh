@@ -45,6 +45,7 @@ case "$1" in
     			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
 			git pull
+			git checkout
 			cd ..
 		done
 		echo -e "\e[00;1;92mFinished...\e[00m"
