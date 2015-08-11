@@ -1,6 +1,8 @@
 mygit
 ===========
 
+[![DOI](https://zenodo.org/badge/4102/sinfallas/mygit.svg)](https://zenodo.org/badge/latestdoi/4102/sinfallas/mygit)
+
 ![Status](https://api.travis-ci.org/sinfallas/mygit.svg) 
 
 [![Coverage Status](https://coveralls.io/repos/sinfallas/mygit/badge.svg?branch=master&service=github)](https://coveralls.io/github/sinfallas/mygit?branch=master)
