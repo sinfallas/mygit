@@ -5,8 +5,6 @@ mygit
 
 ![Status](https://api.travis-ci.org/sinfallas/mygit.svg) 
 
-[![Coverage Status](https://coveralls.io/repos/sinfallas/mygit/badge.svg?branch=master&service=github)](https://coveralls.io/github/sinfallas/mygit?branch=master)
-
 A script to automate common tasks when using git
 
 ## How to use
