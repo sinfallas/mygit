@@ -1,6 +1,7 @@
 #!/bin/bash
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
+LC_ALL=C
 case "$1" in
 	up)
 		git add .
