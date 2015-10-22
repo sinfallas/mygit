@@ -2,8 +2,7 @@
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
 LC_ALL=C
-trap "rm -f /run/mygit.pid; exit" INT TERM EXIT
-echo "$BASHPID" > /run/mygit.pid
+
 case "$1" in
 	up)
 		git add .
@@ -60,7 +59,4 @@ case "$1" in
 		echo "usage: $0 {up|change|change-all|refresh|up-all <message>}"
 		;;
 esac
-
-rm -f /run/mygit.pid
-trap - INT TERM EXIT
 exit 0
