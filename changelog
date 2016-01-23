@@ -1,4 +1,22 @@
-commit 1c63180987f72ab81b53b9a9da5ac96182c856b4 (HEAD, origin/master, origin/HEAD, master)
+commit 7974ee64efa1399535cb24916fe312a3fc440b80 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jan 23 19:10:59 2016 -0430
+
+    * se actualiza el archivo todo
+
+commit f106951ebc371b0bbe167c0c0c90bc79406ed40c
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jan 23 19:10:02 2016 -0430
+
+    * se crea la opcion refresh y refresh-all
+
+commit a92b7a3d65e20c70ebe3a981c420697c24676b63
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sat Jan 23 19:08:02 2016 -0430
+
+    * changelog
+
+commit 1c63180987f72ab81b53b9a9da5ac96182c856b4
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sat Jan 23 19:07:44 2016 -0430
 
