@@ -1,4 +1,22 @@
-commit 488d4329df1ce699e67b42cf112de55d4a1388a3 (HEAD, origin/master, origin/HEAD, master)
+commit 1724de6ca973941731a8ccaa736b5f4221fae750 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Apr 5 20:24:38 2016 -0430
+
+    * se agrega documentacion sobre gpg en github
+
+commit 8c43907bb2bd0a796d3cbf7211db08541d14e3d1
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Apr 5 20:23:42 2016 -0430
+
+    * se agrega la posibilidad de firmar con gpg
+
+commit bd095b0795397a4283a6147cf8b171d2690b47ec
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Feb 29 21:21:44 2016 -0430
+
+    * changelog
+
+commit 488d4329df1ce699e67b42cf112de55d4a1388a3
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Feb 29 21:21:30 2016 -0430
 
