@@ -6,7 +6,7 @@ LC_ALL=C
 case "$1" in
 	up)
 		git add .
-		git commit -a
+		git commit -S -a
 		git push --all
 		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
@@ -16,7 +16,7 @@ case "$1" in
 			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
 			git add .
-			git commit -a -m $2
+			git commit -S -a -m $2
 			git push --all
 			cd ..
 		done
@@ -26,7 +26,7 @@ case "$1" in
 	change)
 		git log --decorate > changelog
 		git add .
-		git commit -a -m "* changelog"
+		git commit -S -a -m "* changelog"
 		git push --all
 		echo -e "\e[00;1;92mFinished...\e[00m"
 		;;
@@ -37,7 +37,7 @@ case "$1" in
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
 			git log --decorate > changelog
 			git add .
-			git commit -a -m "* changelog"
+			git commit -S -a -m "* changelog"
 			git push --all
 			cd ..
 		done
