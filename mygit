@@ -6,12 +6,58 @@ LC_ALL=C
 case "$1" in
 	up)
 		git add .
-		git commit -S -a
+		git commit -a
 		git push --all
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	up-all)
+		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
+			cd $i
+			echo -e "\e[00;1;92m$(pwd)\e[00m"
+			git add .
+			git commit -a -m $2
+			git push --all
+			cd ..
+		done
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
+
+	change)
+		git log --decorate > changelog
+		git add .
+		git commit -a -m "* changelog"
+		git push --all
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
+
+	change-all)
+		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
+			cd $i
+			echo -e "\e[00;1;92m$(pwd)\e[00m"
+			git log --decorate > changelog
+			git add .
+			git commit -a -m "* changelog"
+			git push --all
+			cd ..
+		done
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
+
+	sconfig)
+		git config --global commit.gpgsign true
+		git config --global user.signingkey $2
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
+
+	sup)
+		git add .
+		git commit -S -a
+		git push --all
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
+
+	sup-all)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
 			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
@@ -20,18 +66,18 @@ case "$1" in
 			git push --all
 			cd ..
 		done
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
-	change)
+	schange)
 		git log --decorate > changelog
 		git add .
 		git commit -S -a -m "* changelog"
 		git push --all
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
-	change-all)
+	schange-all)
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
 			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
@@ -41,7 +87,7 @@ case "$1" in
 			git push --all
 			cd ..
 		done
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	refresh-all)
@@ -52,17 +98,28 @@ case "$1" in
 			git checkout
 			cd ..
 		done
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	refresh)
 		git pull
 		git checkout
-		echo -e "\e[00;1;92mFinished...\e[00m"
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
 	*)
-		echo "usage: $(basename $0) {up|change|refresh|change-all|refresh-all|up-all <message>}"
+		echo "uso: $(basename $0) opciones"
+		echo "sconfig	ID	configuracion de firma"
+		echo "sup		subida firmada"
+		echo "sup-all <msj>	subida firmada para todos"
+		echo "schange		changelog firmado"
+		echo "schange-all	changelog firmado para todos"
+		echo "up		subida simple"
+		echo "up-all  <msj>	subida simple para todos"
+		echo "change		changelog simple"
+		echo "change-all	changelog simple para todos"
+		echo "refresh		refresca el repositorio"
+		echo "refresh-all	refresca todos los repositorios"
 		;;
 esac
 exit 0

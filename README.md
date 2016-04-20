@@ -5,17 +5,20 @@ mygit
 [![DOI](https://zenodo.org/badge/4102/sinfallas/mygit.svg)](https://zenodo.org/badge/latestdoi/4102/sinfallas/mygit)
 ![Status](https://api.travis-ci.org/sinfallas/mygit.svg) 
 
-A script to automate common tasks when using git
+Script para automitazar tareas comunes al usar git
 
-## How to use
+## USO:
 
-```bash
-curl -O https://raw.githubusercontent.com/sinfallas/mygit/master/mygit
-chmod +x mygit
-```
+mygit opciones
 
-copy to /usr/bin/ and then execute:
-
-```bash
-mygit {up|change|change-all|refresh|up-all <message>}
-```
+	sconfig	ID	configuracion de firma
+	sup		subida firmada
+	sup-all <msj>	subida firmada para todos
+	schange		changelog firmado
+	schange-all	changelog firmado para todos
+	up		subida simple
+	up-all  <msj>	subida simple para todos
+	change		changelog simple
+	change-all	changelog simple para todos
+	refresh		refresca el repositorio
+	refresh-all	refresca todos los repositorios
