@@ -1,4 +1,16 @@
-commit 1724de6ca973941731a8ccaa736b5f4221fae750 (HEAD, origin/master, origin/HEAD, master)
+commit 290ee31f767c3b4bfd126561be78fe75b3c2ec77 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Apr 20 17:52:11 2016 -0430
+
+    * se agregan las opciones de firma
+
+commit 683d6179006d569c1fe1cd56fc070468f6063066
+Author: jose perez <sinfallas@gmail.com>
+Date:   Tue Apr 5 20:24:56 2016 -0430
+
+    * changelog
+
+commit 1724de6ca973941731a8ccaa736b5f4221fae750
 Author: jose perez <sinfallas@gmail.com>
 Date:   Tue Apr 5 20:24:38 2016 -0430
 
