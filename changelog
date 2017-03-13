@@ -1,4 +1,16 @@
-commit 290ee31f767c3b4bfd126561be78fe75b3c2ec77 (HEAD, origin/master, origin/HEAD, master)
+commit f9f3eb979a77d622c30ad67ffc227d738098ede1 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Mar 13 18:27:17 2017 -0400
+
+    * se agregan funciones para comprobar codigos de error al finalizar cada etapa
+
+commit 86878286c1aa51e4e82c4d87aa5e332a8ee6f330
+Author: jose perez <sinfallas@gmail.com>
+Date:   Wed Apr 20 17:52:40 2016 -0430
+
+    * changelog
+
+commit 290ee31f767c3b4bfd126561be78fe75b3c2ec77
 Author: jose perez <sinfallas@gmail.com>
 Date:   Wed Apr 20 17:52:11 2016 -0430
 
