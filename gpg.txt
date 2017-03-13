@@ -1,6 +1,3 @@
 git config commit.gpgsign true
 git config --global commit.gpgsign true
 git config --global user.signingkey ID
-
-https://help.github.com/articles/signing-commits-using-gpg/
-https://help.github.com/articles/telling-git-about-your-gpg-key/
