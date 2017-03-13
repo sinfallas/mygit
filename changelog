@@ -1,4 +1,16 @@
-commit f9f3eb979a77d622c30ad67ffc227d738098ede1 (HEAD, origin/master, origin/HEAD, master)
+commit 2d2aa896a8a1b3ba7a4d8458ba37f4ff60215649 (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Mar 13 18:45:56 2017 -0400
+
+    * se crea la opcion unock y unlock-all
+
+commit 7fdc6eb9ee9e0bb28cd16e5819713bdf413146fe
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Mar 13 18:27:55 2017 -0400
+
+    * changelog
+
+commit f9f3eb979a77d622c30ad67ffc227d738098ede1
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Mar 13 18:27:17 2017 -0400
 
