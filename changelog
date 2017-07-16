@@ -1,4 +1,16 @@
-commit 2d2aa896a8a1b3ba7a4d8458ba37f4ff60215649 (HEAD, origin/master, origin/HEAD, master)
+commit e0046d32765d1ddcbd57792daccd8db484a4d44b (HEAD, origin/master, origin/HEAD, master)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Jul 16 15:46:06 2017 -0400
+
+    * se colocan los errores en color rojo
+
+commit e444d1ef72b6a629f83d54dd914192f5b9ce7878
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Mar 13 18:46:28 2017 -0400
+
+    * changelog
+
+commit 2d2aa896a8a1b3ba7a4d8458ba37f4ff60215649
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Mar 13 18:45:56 2017 -0400
 
