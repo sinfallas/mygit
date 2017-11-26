@@ -84,6 +84,7 @@ case "$1" in
 		;;
 
 	sconfig)
+		git config commit.gpgsign true
 		git config --global commit.gpgsign true
 		git config --global user.signingkey $2
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
@@ -173,6 +174,16 @@ case "$1" in
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
+	install)
+		if [[ "$EUID" != "0" ]]; then
+			echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
+			exit 1
+		fi
+		apt-get -q update
+		apt-get -qy install git gnupg
+		echo -e "\e[00;1;92mFinalizado...\e[00m"
+		;;
+
 	*)
 		echo "uso: $(basename $0) opciones"
 		echo "sconfig	ID	configuracion de firma"
@@ -188,6 +199,7 @@ case "$1" in
 		echo "refresh-all	refresca todos los repositorios"
 		echo "unlock		desbloquea la rama"
 		echo "unlock-all	desbloquea todas las ramas"
+		echo "install		instala los programa necesarios"
 		;;
 esac
 exit 0

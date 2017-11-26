@@ -4,11 +4,11 @@ Priority: standard
 Maintainer: Jesus Palencia <sinfallas@gmail.com>
 Build-Depends: debhelper, cdbs
 Standards-Version: 3.9.5
-Homepage: https://xanadulinux.wordpress.com
+Homepage: https://sinfallas.wordpress.com
 Vcs-Bzr: lp:~sinfallas/+junk/mygit
 
 Package: mygit
 Architecture: all
-Depends: git
-Description: MyGit
- A script to automate common tasks when using Git
+Depends: git, gnupg, ${misc:Depends}
+Description: My Git
+ Script para automatizar tareas comunes al usar git
