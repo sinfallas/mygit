@@ -183,23 +183,29 @@ case "$1" in
 		apt-get -qy install git gnupg
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
-
+	
+	config)
+		git config --global user.email "$3"
+		git config --global user.name "$1" "$2"
+		;;
+		
 	*)
 		echo "uso: $(basename $0) opciones"
-		echo "sconfig	ID	configuracion de firma"
-		echo "sup		subida firmada"
-		echo "sup-all <msj>	subida firmada para todos"
-		echo "schange		changelog firmado"
-		echo "schange-all	changelog firmado para todos"
-		echo "up		subida simple"
-		echo "up-all  <msj>	subida simple para todos"
-		echo "change		changelog simple"
-		echo "change-all	changelog simple para todos"
-		echo "refresh		refresca el repositorio"
-		echo "refresh-all	refresca todos los repositorios"
-		echo "unlock		desbloquea la rama"
-		echo "unlock-all	desbloquea todas las ramas"
-		echo "install		instala los programa necesarios"
+		echo "sconfig	ID				configuracion de firma"
+		echo "sup					subida firmada"
+		echo "sup-all	<msj>				subida firmada para todos"
+		echo "schange					changelog firmado"
+		echo "schange-all				changelog firmado para todos"
+		echo "up					subida simple"
+		echo "up-all	<msj>				subida simple para todos"
+		echo "change					changelog simple"
+		echo "change-all				changelog simple para todos"
+		echo "refresh					refresca el repositorio"
+		echo "refresh-all				refresca todos los repositorios"
+		echo "unlock					desbloquea la rama"
+		echo "unlock-all				desbloquea todas las ramas"
+		echo "install					instala los programa necesarios"
+		echo "config	nombre apellido mi@correo.com	configura git"
 		;;
 esac
 exit 0
