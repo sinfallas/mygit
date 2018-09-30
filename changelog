@@ -1,4 +1,16 @@
-commit 71a5b1a6457cfacd58b12d433ddc7d11821b4f79 (HEAD, origin/master, origin/HEAD, master)
+commit 0844e0a3d2852b978e863fc8b48f2eac98079318 (HEAD -> master, origin/master, origin/HEAD)
+Author: Jose Perez <sinfallas@users.noreply.github.com>
+Date:   Mon Mar 12 09:46:00 2018 -0400
+
+    se agrega la opcion para configurar git
+
+commit e7657d4e1d2ae083de6171574024ee8431922e63
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Nov 26 13:22:54 2017 -0400
+
+    * changelog
+
+commit 71a5b1a6457cfacd58b12d433ddc7d11821b4f79
 Author: jose perez <sinfallas@gmail.com>
 Date:   Sun Nov 26 13:22:34 2017 -0400
 
