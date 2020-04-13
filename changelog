@@ -1,4 +1,16 @@
-commit 0844e0a3d2852b978e863fc8b48f2eac98079318 (HEAD -> master, origin/master, origin/HEAD)
+commit 00d21fe04fcfc1493b0d85b925a7761c1f897854 (HEAD -> master, origin/master, origin/HEAD)
+Author: jose perez <sinfallas@gmail.com>
+Date:   Mon Apr 13 19:51:46 2020 -0400
+
+    * limpieza
+
+commit fe3607da9a6fe5f0079dc4e1feaa86d57e1308c1
+Author: jose perez <sinfallas@gmail.com>
+Date:   Sun Sep 30 13:28:06 2018 -0400
+
+    * changelog
+
+commit 0844e0a3d2852b978e863fc8b48f2eac98079318
 Author: Jose Perez <sinfallas@users.noreply.github.com>
 Date:   Mon Mar 12 09:46:00 2018 -0400
 
