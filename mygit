@@ -2,10 +2,8 @@
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
 LC_ALL=C
-echo $BASHPID > /run/"$(basename $0)".pid
 
 function clean_1() {
-	rm -f /run/$(basename $0).pid
 	find . -name *.lock | rm
 }
 
