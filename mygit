@@ -2,6 +2,14 @@
 # Made by Sinfallas <sinfallas@yahoo.com>
 # Licence: GPL-2
 LC_ALL=C
+echo $BASHPID > /run/"$(basename $0)".pid
+
+function clean_1() {
+	rm -f /run/$(basename $0).pid
+	find . -name *.lock | rm
+}
+
+trap "clean_1; exit" 0 1 2 3 15
 
 function agregar() {
 	if [[ $? = 0 ]]; then
@@ -180,7 +188,7 @@ case "$1" in
 			exit 1
 		fi
 		apt-get -q update
-		apt-get -qy install git gnupg
+		apt-get -qy install git gnupg ssh
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 	
