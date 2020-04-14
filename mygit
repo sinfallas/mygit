@@ -5,7 +5,6 @@ LC_ALL=C
 echo $BASHPID > /tmp/"$(basename $0)".pid
 function clean_1() {
 	rm -f /tmp/$(basename $0).pid
-	find . -name *.lock | rm
 }
 
 trap "clean_1; exit" 0 1 2 3 15
