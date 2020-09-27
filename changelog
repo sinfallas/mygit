@@ -1,4 +1,16 @@
-commit bf1d9a83c9dcce7b7372b5a24cb3716c23e23459 (HEAD -> master, origin/master, origin/HEAD)
+commit fbfb7a7ce749b7aa6f1ac736e89e4aa49d6cdf60 (HEAD -> master, origin/master, origin/HEAD)
+Author: config <Palencia>
+Date:   Sun Sep 27 15:43:18 2020 -0400
+
+    * git status -s
+
+commit 63aff75ba316cd5b04af003e7af571dc04be0e90
+Author: config <Palencia>
+Date:   Mon Jul 6 22:03:36 2020 -0400
+
+    * changelog
+
+commit bf1d9a83c9dcce7b7372b5a24cb3716c23e23459
 Author: jose perez <sinfallas@gmail.com>
 Date:   Mon Apr 27 16:50:43 2020 -0400
 
