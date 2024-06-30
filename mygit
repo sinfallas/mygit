@@ -7,7 +7,7 @@ function clean_1() {
 	rm -f /tmp/$(basename $0).pid
 }
 
-trap "clean_1; exit" 0 1 2 3 9 15
+trap "clean_1; exit" 0 1 2 3 15
 
 function agregar() {
 	if [[ $? = 0 ]]; then
@@ -169,6 +169,7 @@ case "$1" in
 
 	unlock)
 		find . -name *.lock | rm
+		git rebase origin/master
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
