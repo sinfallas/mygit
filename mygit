@@ -152,6 +152,7 @@ case "$1" in
 		for i in $(find . -maxdepth 1 -type d | cut -c 3-50); do
     			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
+			git fetch --all --tags
 			git pull
 			git checkout
 			git status -s
@@ -161,6 +162,7 @@ case "$1" in
 		;;
 
 	refresh)
+		git fetch --all --tags
 		git pull
 		git checkout
 		git status -s
