@@ -1,4 +1,16 @@
-commit a3239bbbe151973fe3f22cf76016b4776404131f (HEAD -> master, origin/master, origin/HEAD)
+commit 574b108a74f9a4c42782972a06ea1450be50a084 (HEAD -> master, origin/master, origin/HEAD)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Wed Jul 24 19:22:08 2024 -0400
+
+    * git fetch --all --tags
+
+commit 06ff96adfd38c6be05e2bc5b2d8b9c4dde08adc0
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jun 30 18:31:32 2024 -0400
+
+    * changelog
+
+commit a3239bbbe151973fe3f22cf76016b4776404131f
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Sun Jun 30 18:31:21 2024 -0400
 
