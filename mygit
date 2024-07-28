@@ -194,12 +194,20 @@ case "$1" in
 		apt-get -qy install git gnupg ssh
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
-	
+
 	config)
 		git config --global user.email "$3"
 		git config --global user.name "$1" "$2"
 		;;
-		
+
+	reset-soft)
+		git reset --soft HEAD-1
+		;;
+
+	reset-hard)
+		git reset --hard HEAD-1
+		;;
+
 	*)
 		echo "uso: $(basename $0) opciones"
 		echo "sconfig	ID				configuracion de firma"
@@ -213,6 +221,8 @@ case "$1" in
 		echo "change-all				changelog simple para todos"
 		echo "refresh					refresca el repositorio"
 		echo "refresh-all				refresca todos los repositorios"
+		echo "reset-soft				retrocede una revision sin perder los cambios"
+		echo "reset-hard				retrocede una revision"
 		echo "unlock					desbloquea la rama"
 		echo "unlock-all				desbloquea todas las ramas"
 		echo "install					instala los programa necesarios"
