@@ -1,4 +1,16 @@
-commit 574b108a74f9a4c42782972a06ea1450be50a084 (HEAD -> master, origin/master, origin/HEAD)
+commit 40994ef5a2d5602ffea8bed1cba77969ab85de17 (HEAD -> master, origin/master, origin/HEAD)
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Sun Jul 28 16:40:09 2024 -0400
+
+    * funcion reset
+
+commit 0a22f5d7e851d9c4a484059adcb943e06f781132
+Author: Jesus Palencia <sinfallas@gmail.com>
+Date:   Wed Jul 24 19:22:29 2024 -0400
+
+    * changelog
+
+commit 574b108a74f9a4c42782972a06ea1450be50a084
 Author: Jesus Palencia <sinfallas@gmail.com>
 Date:   Wed Jul 24 19:22:08 2024 -0400
 
