@@ -153,7 +153,7 @@ case "$1" in
     			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
 			git fetch --all --tags
-			git pull
+			git pull --all
 			git checkout
 			git status -s
 			cd ..
@@ -163,7 +163,7 @@ case "$1" in
 
 	refresh)
 		git fetch --all --tags
-		git pull
+		git pull --all
 		git checkout
 		git status -s
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
