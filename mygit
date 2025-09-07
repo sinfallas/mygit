@@ -3,6 +3,7 @@
 # Licence: GPL-2
 LC_ALL=C
 echo $BASHPID > /tmp/"$(basename $0)".pid
+
 function clean_1() {
 	rm -f /tmp/$(basename $0).pid
 }
@@ -153,7 +154,7 @@ case "$1" in
     			cd $i
 			echo -e "\e[00;1;92m$(pwd)\e[00m"
 			git fetch --all --tags
-			git pull --all
+			git pull --rebase --all
 			git checkout
 			git status -s
 			cd ..
@@ -163,7 +164,7 @@ case "$1" in
 
 	refresh)
 		git fetch --all --tags
-		git pull --all
+		git pull --rebase --all
 		git checkout
 		git status -s
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
@@ -185,13 +186,13 @@ case "$1" in
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
-	install)
+	instalar)
 		if [[ "$EUID" != "0" ]]; then
 			echo -e "\e[00;31mERROR: DEBES SER ROOT\e[00m"
 			exit 1
 		fi
-		apt-get -q update
-		apt-get -qy install git gnupg ssh
+		apt -qq update
+		apt -y install git gnupg ssh
 		echo -e "\e[00;1;92mFinalizado...\e[00m"
 		;;
 
@@ -225,7 +226,7 @@ case "$1" in
 		echo "reset-hard				retrocede una revision"
 		echo "unlock					desbloquea la rama"
 		echo "unlock-all				desbloquea todas las ramas"
-		echo "install					instala los programa necesarios"
+		echo "instalar					instala los programa necesarios"
 		echo "config	nombre apellido mi@correo.com	configura git"
 		;;
 esac
