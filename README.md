@@ -1,6 +1,8 @@
 mygit
 ===========
 
+[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/sinfallas/mygit)
+
 [![GitHub license](https://sinfallas.files.wordpress.com/2016/02/gpl.png)](https://github.com/sinfallas/mygit/blob/master/LICENSE)
 [![DOI](https://zenodo.org/badge/4102/sinfallas/mygit.svg)](https://zenodo.org/badge/latestdoi/4102/sinfallas/mygit)
 ![Status](https://api.travis-ci.org/sinfallas/mygit.svg) 
